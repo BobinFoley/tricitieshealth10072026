@@ -1,0 +1,6 @@
+{
+  "name": "Tri-Cities Health Clone",
+  "description": "A professional recreation of the Tri-Cities Health Clinic website, featuring primary care, testosterone therapy, and DOT physicals with HIPAA-compliant contact methods.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
