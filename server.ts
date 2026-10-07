@@ -12,6 +12,12 @@ async function startServer() {
 
   app.use(express.json());
 
+  // Disable geolocation permissions site-wide so visitors are never prompted
+  app.use((_req, res, next) => {
+    res.setHeader("Permissions-Policy", "geolocation=()");
+    next();
+  });
+
   // API Routes (none currently needed for HIPAA-safe contact)
 
   // Vite middleware for development

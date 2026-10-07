@@ -60,6 +60,28 @@
         "sameAs": []
       }
     </script>
+    <!-- Prevent geolocation prompts across all browsers and embedded scripts -->
+    <script>
+      (function() {
+        if (typeof navigator !== 'undefined' && navigator.geolocation) {
+          try {
+            navigator.geolocation.getCurrentPosition = function(_, error) {
+              if (typeof error === 'function') {
+                error({ code: 1, message: 'Geolocation access disabled.' });
+              }
+            };
+            navigator.geolocation.watchPosition = function(_, error) {
+              if (typeof error === 'function') {
+                error({ code: 1, message: 'Geolocation access disabled.' });
+              }
+              return 0;
+            };
+          } catch (e) {
+            // Read-only fallback
+          }
+        }
+      })();
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHVH8WLB12"></script>
     <script>

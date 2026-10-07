@@ -110,6 +110,7 @@ export default function Contact() {
               height="100%" 
               style={{ border: 0 }} 
               allowFullScreen={true} 
+              allow="fullscreen"
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
               title="Tri-Cities Health Map"
