@@ -113,7 +113,7 @@ export default function Services() {
                 Erectile Dysfunction Treatment
               </h3>
               <p className="text-slate-300 text-base leading-relaxed mb-6">
-                ED is often a treatable vascular or hormonal condition. We provide a respectful, private setting with personalized prescriptions, injection therapy (Trimix), and hormone rebalancing.
+                ED is often a treatable vascular or hormonal condition. We provide a respectful, private setting with personalized therapies, injection therapy (Trimix), and hormone rebalancing.
               </p>
               <ul className="space-y-2 mb-8">
                 <li className="flex items-center gap-2 text-sm text-slate-200">
@@ -396,10 +396,6 @@ export default function Services() {
                 <li className="flex items-center gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-blue-300" />
                   <span className="text-sm md:text-base font-medium">Driver Health Evaluations</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-blue-300" />
-                  <span className="text-sm md:text-base font-medium">Prescription Refill Oversight</span>
                 </li>
               </ul>
             </div>

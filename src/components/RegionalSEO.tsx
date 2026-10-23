@@ -51,7 +51,7 @@ export default function RegionalSEO() {
           </p>
           
           <p>
-            <strong>Tri-Cities Primary Care</strong> isn't just about treating symptoms; it's about fostering wellness in <strong>Johnson City</strong>, <strong>Kingsport</strong>, <strong>Bristol</strong>, and our home base in <strong>Elizabethton</strong>. We invite you to experience the difference that dedicated, local healthcare can make. From routine screenings and chronic disease management to specialized hormone replacement therapy and DOT certifications, we provide the full spectrum of care that the Tri-Cities deserves.
+            <strong>Tri-Cities Primary Care</strong> isn't just about treating symptoms; it's about fostering wellness in <strong>Johnson City</strong>, <strong>Kingsport</strong>, <strong>Bristol</strong>, and our home base in <strong>Elizabethton</strong>. We invite you to experience the difference that dedicated, local healthcare can make. From routine screenings and chronic disease management to specialized therapies and DOT certifications, we provide the full spectrum of care that the Tri-Cities deserves.
           </p>
           
           <p>
